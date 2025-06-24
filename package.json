@@ -1,0 +1,21 @@
+{
+  "name": "flowmatik-professional-backend",
+  "version": "1.0.0",
+  "description": "Flowmatik Professional Backend - 8 AI Agents + Doubao 1.5-pro for Cloudflare Workers",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["flowmatik", "ai", "agents", "doubao", "cloudflare", "workers"],
+  "author": "Flowmatik Team",
+  "license": "MIT",
+  "dependencies": {
+    "hono": "^4.8.2"
+  },
+  "devDependencies": {
+    "wrangler": "^3.78.12"
+  }
+}
+

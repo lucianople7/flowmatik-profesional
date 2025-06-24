@@ -1,0 +1,13 @@
+name = "flowmatik-backend"
+main = "src/index.js"
+compatibility_date = "2024-12-01"
+
+[vars]
+ENVIRONMENT = "production"
+
+[[env.production.vars]]
+AI_302_API_KEY = ""
+
+[build]
+command = "npm install"
+
